@@ -1,0 +1,26 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Web Developer, Programmer & Designer Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "sass": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "web",
+    "developer",
+    "portfolio"
+  ],
+  "author": "CARLO.CODES",
+  "license": "ISC"
+}
