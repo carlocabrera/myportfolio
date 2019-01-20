@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Web Developer, Programmer & Designer Portfolio",
   "main": "index.js",
+  "homepage": "https://carlocabrera.github.io/myportfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
@@ -11,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "html",
